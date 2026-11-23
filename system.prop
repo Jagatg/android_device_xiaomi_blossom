@@ -85,6 +85,8 @@ wifi.tethering.interface=ap0
 
 # Zygote
 ro.zygote.preload.enable=0
-
+ro.product.marketname=$(ro.product.product.marketname)
 # Device specific properties
 import /system/etc/properties/${ro.boot.hwname}.prop
+ro.infinity.so="MediaTek Helio G25/G35"
+ro.infinity.camera="13MP + 2MP + 2MP"

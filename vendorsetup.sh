@@ -10,3 +10,4 @@ ${deviceDir}/applyPatches.sh ${deviceDir}/patches
 export SKIP_ABI_CHECKS=true
 
 export TARGET_BOARD_PLATFORM=mt6765
+add_lunch_combo infinity_blossom-userdebug
